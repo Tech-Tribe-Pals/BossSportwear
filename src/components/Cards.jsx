@@ -28,7 +28,7 @@ const CardProds = styled.div`
 export const CardCategory = () => {
   return (
     <div>
-      <img src="/img5.jpg" />
+      <img src="./img5.jpg" alt="img_paleta" />
       <p>Indumentaria Hombre</p>
       <Link to={""}>Ver mas</Link>
     </div>
@@ -39,7 +39,7 @@ export const CardProd = () => {
   return (
     <CardProds>
       <div className="imgContainer">
-        <img src="/paleta2.png" />
+        <img src="./paleta2.png" alt="img_paleta" />
         <p>$5000</p>
       </div>
       <p>Paleta Boss</p>
