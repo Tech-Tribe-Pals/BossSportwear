@@ -25,6 +25,14 @@ const CardProds = styled.div`
   }
 `;
 
+const CardCubes = styled.div`
+  img {
+    object-fit: cover;
+    width: 100%;
+    height: 50vh;
+  }
+` 
+
 export const CardCategory = () => {
   return (
     <div>
@@ -46,5 +54,15 @@ export const CardProd = () => {
       <p>Paleta</p>
       <Link to={""}>Ver mas</Link>
     </CardProds>
+  );
+};
+
+
+// eslint-disable-next-line react/prop-types
+export const CardCube = ({ image }) => {
+  return (
+    <CardCubes>
+      <img src={ image } alt="imagen" />
+    </CardCubes>
   );
 };

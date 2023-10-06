@@ -9,6 +9,7 @@ const HeaderStyle = styled.header`
   justify-content: center;
   top: 0;
   z-index: 2;
+  display: none;
   nav {
     display: flex;
     align-items: center;
